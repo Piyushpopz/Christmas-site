@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+
+
+body::-webkit-scrollbar{
+    display: none;
+ 
+}
+
+html{
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Merry;
+    src: url(./assets/Wonderia.otf) format("opentype");
+    
+}
+
+h1{
+    font-weight: 900;
+    font-family: Merry;
+}
+
+p{
+     font-weight: 400;
+    font-family: Merry;
+}
+button{
+     font-weight: 400;
+    font-family: Merry;
+}
+
+li{
+     font-weight: 400;
+    font-family: Merry;
+}
