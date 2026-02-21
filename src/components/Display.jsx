@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ChristmasTree from '../assets/christmasstree3.mp4'
+import ChristmasTree from '../assets/chirstmasstree3.mp4'
 
 const Display = () => {
   return (
