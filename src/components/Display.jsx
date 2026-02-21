@@ -1,11 +1,13 @@
 import React from 'react'
 
+import ChristmasTree from '../assets/christmasstree3.mp4'
+
 const Display = () => {
   return (
   <>
   <div className='w-full h-[400px] my-15 px-20 flex gap-20 bg-blue-800'>
     <div className='w-[40%] h-full py-4'>
-        <video src="./src/assets/chirstmasstree3.mp4"
+        <video src={ChristmasTree}
         className='w-full h-full object-fill rounded-2xl shadow-lg border-2 border-white'
         autoPlay
         muted
